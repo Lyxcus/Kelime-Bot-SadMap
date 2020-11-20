@@ -1,0 +1,29 @@
+{
+  "name": "kelimebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "npm i && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SadMap/KelimeBot.git"
+  },
+  "author": "SadMap",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/SadMap/KelimeBot/issues"
+  },
+  "homepage": "https://github.com/SadMap/KelimeBot#readme",
+  "dependencies": {
+    "@keyv/sqlite": "^2.0.2",
+    "discord.js": "^12.4.1",
+    "eslint": "^7.13.0",
+    "keyv": "^4.0.3",
+    "node-fetch": "^2.6.1",
+    "os-utils": "0.0.14",
+    "sozlukjs": "^1.1.0"
+  }
+}
